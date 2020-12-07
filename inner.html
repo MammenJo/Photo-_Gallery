@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .grid-container {
+            display: inline-grid;
+            grid-template-columns: auto auto auto;
+            background-color: mediumpurple;
+            padding: 10px;
+        }
+
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        img {
+            width: 20%;
+        }
+
+        html {
+            text-align: center;
+        }
+
+    </style>   
+    <title>
+                Photo Gallery
+            </title>
+</head>
+<center>
+<body>
+        <section>
+                <h1>
+                        Photo Gallery
+                    </h1>
+                <img src="101-1016766_bts-logo-png-clip-art-transparent-download-bts.png">
+            </section>
+        <section>
+                <h1>
+                        Grid Gallery
+                    </h1>
+                <div class="grid-container">
+                        <div class="grid-item"> <img src="download%20(1).jpg"> </div>
+                        <div class="grid-item"> <img src="download%20(2).jpg"> </div>
+                        <div class="grid-item"> <img src="ce321d29f899aa2818e3a5e6c4bb5134.jpg"> </div>
+                        <div class="grid-item"> <img src="download.jpg"> </div>
+                        <div class="grid-item"> <img src="Jimin_BE_Concept_Photo_%25282%2529.jpg"> </div>
+                        <div class="grid-item"> <img src="Jin_BE_Concept_Photo_(2).jpg"> </div>
+                        <div class="grid-item"> <img src="V_on_the_Billboard_Music_Awards_red_carpet,_1_May_2019_02.jpg"> </div>
+                    </div>
+            </section>
+    <br>   
+    <section>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                 <li data-target="#demo" data-slide-to="3"></li>
+                 <li data-target="#demo" data-slide-to="4"></li>
+                 <li data-target="#demo" data-slide-to="5"></li>
+                 <li data-target="#demo" data-slide-to="6"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="download%20(1).jpg" alt="Los Angeles">
+                </div>
+                <div class="carousel-item">
+                    <img src="download%20(2).jpg" alt="Chicago">
+                </div>
+                <div class="carousel-item">
+                    <img src="download.jpg" alt="New York">
+                </div>
+                 <div class="carousel-item">
+                    <img src="V_on_the_Billboard_Music_Awards_red_carpet,_1_May_2019_02.jpg" alt="New York">
+                </div>
+                 <div class="carousel-item">
+                    <img src="Jimin_BE_Concept_Photo_%25282%2529.jpg" alt="New York">
+                </div>
+                 <div class="carousel-item">
+                    <img src="Jin_BE_Concept_Photo_(2).jpg" alt="New York">
+                </div>
+                 <div class="carousel-item">
+                    <img src="ce321d29f899aa2818e3a5e6c4bb5134.jpg" alt="New York">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    </section>
+</body>
+</center>
+</html>
